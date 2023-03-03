@@ -23,3 +23,11 @@ let secondHeader = document.createElement('h2')
 secondHeader.innerText = 'Everything you need to know about the DOM'
 
 mainHeader.after(secondHeader) // after method places items after the node
+
+let allListItems = document.querySelectorAll('li')
+
+for(let item of allListItems){
+    item.style.backgroundColor = 'pink'
+}
+
+allListItems[0].classList.remove('active')
