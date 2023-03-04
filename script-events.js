@@ -52,4 +52,10 @@ $(document).ready(()=>{
             $('img').fadeTo(1000, 0.5)
         }
    })
+
+   $('.btn5').on({
+        click: function(){
+            $('img').fadeTo(1000, 0).fadeTo(1000, 1)
+        }
+   })
 })
