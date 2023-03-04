@@ -1,3 +1,7 @@
 $(document).ready(()=>{
-    $('body').append('<h1>Hello World</h1>')
+
+    $('p').click(function(){
+        $(this).slideToggle('slow');
+    })
+
 })
