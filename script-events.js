@@ -49,7 +49,7 @@ $(document).ready(()=>{
 
    $('.btn4').on({
         click: function(){
-            $('img').fadeTo(1000, 0.5)
+            $('img').fadeTo(2000, 0.1)
         }
    })
 
@@ -58,4 +58,11 @@ $(document).ready(()=>{
             $('img').fadeTo(1000, 0).fadeTo(1000, 1)
         }
    })
+
+   console.log($('.btn1').attr('class'))
+   $('.btn1').attr('class', 'redBox bottom_button')
+
+
+   
 })
+
