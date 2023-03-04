@@ -33,8 +33,18 @@ $(document).ready(()=>{
                 $(`.${boxNumber}`).css('background-color', 'red')
             }
 
-            
+        }
+    })
 
+    // Highlight and switch items
+
+    $('h2').on({
+        click: function(){
+            let allBoxes = '.card' // this is all the elements with the class card
+            let h2Clicked = this.id // this brings back the specific id of the h2 clicked
+
+            $(allBoxes).removeClass('make-red') // removes make-red class from all boxes
+            $('.' + h2Clicked + "-card").addClass('make-red'); // adds make-red class to specific box based on h2 id
         }
     })
 
