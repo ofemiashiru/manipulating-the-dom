@@ -17,3 +17,15 @@
     padding: 20px;
     background-color: #b7b7b7;
 }
+
+.btn-text{
+    color: #FFF;
+}
+
+.make-red{
+    background-color: red;
+}
+
+.make-blue{
+    background-color: blue;
+}
