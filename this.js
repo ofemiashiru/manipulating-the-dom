@@ -16,4 +16,26 @@ $(document).ready(()=>{
         }
     })
 
+
+    //Code for the boxes
+
+    $('.box').on({
+        click: function(){
+            let [classNames, boxNumber] = $(this).attr('class').split(" ")
+        
+
+            if($(`.${boxNumber}`).css('background-color') == 'rgb(255, 0, 0)'){
+
+                $(`.${boxNumber}`).css('background-color', 'black')
+
+            } else {
+                
+                $(`.${boxNumber}`).css('background-color', 'red')
+            }
+
+            
+
+        }
+    })
+
 })

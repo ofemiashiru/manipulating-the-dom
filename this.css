@@ -1,4 +1,4 @@
-#container {
+#container, #container2 {
     display: flex; 
     flex-flow: row wrap;
     /*The box-sizing property allows us to include the padding and border in an element's total width and height*/
@@ -8,7 +8,7 @@
     max-width: 1050px;
 }
 
-.card{
+.card, .box{
     flex: 1;
     display: flex;
     flex-flow: column;
@@ -17,7 +17,9 @@
     padding: 20px;
     background-color: #b7b7b7;
 }
-
+.box {
+	background-color: #000;
+}
 .btn-text{
     color: #FFF;
 }
@@ -29,3 +31,9 @@
 .make-blue{
     background-color: blue;
 }
+
+.make-black{
+    background-color: #000;
+}
+
+
