@@ -14,7 +14,7 @@ mainNav.append(newLi)
 
 let mainHeader = document.querySelector('h1')
 
-mainHeader.style.fontSize = '20rem'
+mainHeader.style.fontSize = '5rem'
 mainHeader.style.color = 'blue'
 mainHeader.style.textDecoration = 'underline'
 
