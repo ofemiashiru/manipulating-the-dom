@@ -62,7 +62,5 @@ $(document).ready(()=>{
    console.log($('.btn1').attr('class'))
    $('.btn1').attr('class', 'redBox bottom_button')
 
-
-   
 })
 
