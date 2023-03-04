@@ -43,7 +43,13 @@ $(document).ready(()=>{
 
    $('.btn3').on({
         click: function(){
-            $('img').toggle('blind', 1000)
+            $('img').slideToggle(1000)
+        }
+   })
+
+   $('.btn4').on({
+        click: function(){
+            $('img').fadeTo(1000, 0.5)
         }
    })
 })
